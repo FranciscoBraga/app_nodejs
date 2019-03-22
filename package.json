@@ -1,0 +1,23 @@
+{
+  "name": "noticias_online",
+  "version": "1.0.0",
+  "description": "portal de notícias com diversidade",
+  "main": "noticia.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FranciscoBraga/app_nodejs.git"
+  },
+  "author": "Francisco O. Braga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FranciscoBraga/app_nodejs/issues"
+  },
+  "homepage": "https://github.com/FranciscoBraga/app_nodejs#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}

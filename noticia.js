@@ -4,6 +4,7 @@
  var server = http.createServer( function(req, res){
     //recendo um valor da url como requeste
     var categoria = req.url;
+    
     //verificando o valor retornado pela url
     if(categoria == '/tecnologia'){
         res.end('<html><body>Portal de Tecnologia</body></html>');
